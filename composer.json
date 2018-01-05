@@ -4,7 +4,7 @@
     "name": "ttree/slideout",
     "license": "MIT",
     "require": {
-        "neos/flow": "^3.2",
+        "neos/neos": "^3.2",
         "ttree/script": "^3.0",
         "ttree/stylesheet": "^3.0"
     },

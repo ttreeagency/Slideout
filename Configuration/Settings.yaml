@@ -1,0 +1,9 @@
+Ttree:
+  Slideout:
+    loadMinifiedJavascript: true
+
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        Ttree.Slideout: true

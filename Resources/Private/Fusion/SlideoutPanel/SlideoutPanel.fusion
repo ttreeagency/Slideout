@@ -1,0 +1,7 @@
+prototype(Ttree.Slideout:SlideoutPanel) < prototype(Neos.Fusion:Tag) {
+	tagName = 'main'
+	attributes {
+		id = 'slideout-panel'
+		class = 'slideout-panel'
+	}
+}

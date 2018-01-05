@@ -1,0 +1,4 @@
+prototype(Ttree.Slideout:SlideoutInit) < prototype(Ttree.Script:Resource) {
+	inline = true
+	uri = 'resource://Ttree.Slideout/Public/Scripts/Slideout.init.js'
+}

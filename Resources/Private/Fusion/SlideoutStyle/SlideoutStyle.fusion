@@ -1,0 +1,4 @@
+prototype(Ttree.Slideout:SlideoutStyle) < prototype(Ttree.StyleSheet:Resource) {
+	uri = 'resource://Ttree.Slideout/Public/Styles/Default.css'
+
+}

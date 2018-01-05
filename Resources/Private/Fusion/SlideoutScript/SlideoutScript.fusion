@@ -1,0 +1,6 @@
+prototype(Ttree.Slideout:SlideoutScript) < prototype(Neos.Fusion:Array) {
+	script = Ttree.Script:Resource {
+		uri = ${Configuration.setting('Ttree.Slideout:loadMinifiedJavascript') ? 'resource://Ttree.Slideout/Public/Scripts/Slideout.min.js' : 'resource://Ttree.Slideout/Public/Scripts/Slideout.js'}
+	}
+	init = Ttree.Slideout:SlideoutInit
+}

@@ -1,0 +1,17 @@
+prototype(Ttree.Slideout:SlideoutDecorator) < prototype(Neos.Fusion:Value) {
+	@context.menuContent = ${this.menu}
+	@context.panelContent = ${value}
+
+	value = Neos.Fusion:Array {
+		menuTag = Ttree.Slideout:SlideoutMenu {
+			content = ${menuContent}
+		}
+
+		panelTag = Ttree.Slideout:SlideoutPanel {
+			content = ${panelContent}
+		}
+
+		scripts = Ttree.Slideout:SlideoutScript
+	}
+
+}

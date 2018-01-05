@@ -1,0 +1,9 @@
+prototype(Ttree.Slideout:SlideoutMenu) < prototype(Neos.Fusion:Tag) {
+	tagName = 'nav'
+	attributes {
+		id = 'slideout-menu'
+		class = 'slideout-menu slideout-menu-left'
+		data-panel = 'slideout-panel'
+		data-button = 'slideout-button'
+	}
+}

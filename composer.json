@@ -1,0 +1,21 @@
+{
+    "description": "Simple Slideout navigation for your Neos project",
+    "type": "neos-package",
+    "name": "ttree/slideout",
+    "license": "MIT",
+    "require": {
+        "neos/flow": "^3.2",
+        "ttree/script": "^3.0",
+        "ttree/stylesheet": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Slideout\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Slideout"
+        }
+    }
+}
